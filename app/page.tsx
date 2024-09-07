@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 export default function Home() {
   const batteries = [
-    { name: "Battery Type 1", link: "/Battery1" },
-    { name: "Battery Type 2", link: "/Battery2" },
-    { name: "Battery Type 3", link: "/Battery3" },
+    { name: "Battery Type 1", link: "./Battery1" },
+    { name: "Battery Type 2", link: "./Battery2" },
+    { name: "Battery Type 3", link: "./Battery3" },
   ];
 
   return (
