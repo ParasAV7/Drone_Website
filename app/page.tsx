@@ -21,11 +21,9 @@ export default function Home() {
                 <Typography variant="h5" component="h2">
                   {battery.name}
                 </Typography>
-                {/* eslint-disable react/no-unescaped-entities */}
                 <Typography variant="body2" color="text.secondary">
-                  Learn more about this battery's capacity, efficiency and more.
+                  Learn more about this batterys capacity, efficiency and more.
                 </Typography>
-                {/* eslint-enable react/no-unescaped-entities */}
               </CardContent>
               <CardActions>
                 <Link href={battery.link} passHref>
