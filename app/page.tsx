@@ -22,7 +22,7 @@ export default function Home() {
                   {battery.name}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Learn more about this battery's capacity, efficiency, and more.
+                  Learn more about this battery&apos;s capacity, efficiency, and more.
                 </Typography>
               </CardContent>
               <CardActions>
