@@ -1,5 +1,14 @@
 import { Container, Typography } from '@mui/material';
 
+import IDForm from '../../components/IDForm';
+
+export default function Battery1Page() {
+  return (
+    <IDForm batteryType="Battery Type 1" />
+  );
+}
+
+
 export default function Battery1() {
   return (
     <Container maxWidth="md" sx={{ marginTop: 4 }}>
